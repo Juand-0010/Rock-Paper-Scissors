@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors - Pixel Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Rock • Paper • Scissors</h1>
+
+<label>Game Mode:</label>
+<select id="mode">
+  <option value="ai">Player vs AI</option>
+</select>
+
+<br><br>
+
+<label>Best of (odd numbers only):</label>
+<input type="number" id="rounds" min="1" step="2" value="3">
+
+<br><br>
+
+<button onclick="startGame()">Start Game</button>
+
+<hr>
+
+<div id="game"></div>
+<div id="results"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

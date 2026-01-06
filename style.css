@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 40px;
+  color: #222;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.pixel-art {
+  display: grid;
+  grid-template-columns: repeat(5, 20px);
+  grid-gap: 2px;
+  margin-top: 10px;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+}
+
+.pixel.active {
+  background-color: #222;
+}
+
+.hand-container {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #aaa;
+  padding: 6px 10px;
+}
